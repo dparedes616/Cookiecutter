@@ -10,6 +10,7 @@ dependencies:
   - jupyter
   - jupyterlab
   - pathlib
+  - pandas
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
