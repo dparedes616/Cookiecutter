@@ -1,7 +1,7 @@
 #Pasos para iniciar 
 
 1. Crear una carpeta con el nombre del proyecto
-2. Agrega el canal Conda-Forge a tu configuración global: //Conda config --add channels conda-forge
+2. Agrega el canal Conda-Forge a tu configuración global: //Conda config --add channels conda-forge o //pip install cookiecutter
 3. Crea un ambiente virtual que contenga a Coockiecutter: //conda create --name <nombre_ambiente> coockiecutter=1.7.3
 4. Activa el ambiente virtual: //conda activate <nombre_ambiente>
 5. Definir en dónde estará tu ambiente: // conda env export --from-history --file environment.yml
@@ -23,4 +23,5 @@ Por ejemplo, en “pre_gen_project.py” se puede inicializar git o validar nomb
 
 En el archivo “pos_gen_project.py” se puede hacer el primer commit en git o mostrar la finalización de la instalación de dependencias.
 
-Para crear en otra carpeta desde git utiliza // cookiecutter https://github.com/dparedes616/Cookiecutter
+2. Para crear en otra carpeta desde git utiliza // cookiecutter https://github.com/dparedes616/Cookiecutter
+
