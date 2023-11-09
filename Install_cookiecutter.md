@@ -22,3 +22,5 @@ Dentro de la carpeta se agregan los archivos “pre_gen_project.py” (lo que se
 Por ejemplo, en “pre_gen_project.py” se puede inicializar git o validar nombres y archivos para evitar errores.
 
 En el archivo “pos_gen_project.py” se puede hacer el primer commit en git o mostrar la finalización de la instalación de dependencias.
+
+Para crear en otra carpeta desde git utiliza // cookiecutter https://github.com/dparedes616/Cookiecutter
