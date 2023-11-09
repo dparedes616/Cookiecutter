@@ -1,0 +1,8 @@
+{
+    "project_title": "Cookiecutter Personal",
+    "project_slug": "Cookiecutter_personal",
+    "project_description":"algo genial",
+    "project_author_name" :"Your name",
+    "project_packages":["All", "Minimal"],
+    "python_version":"3.12.0"
+}
