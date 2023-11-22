@@ -1,3 +1,5 @@
+#Acciones antes de crear la plantilla
+
 import os
 import sys
 

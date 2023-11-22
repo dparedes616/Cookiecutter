@@ -1,7 +1,7 @@
-name: cooki
+name: cookiecutter
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - cookiecutter
-prefix: /home/dparedes/anaconda3/envs/cooki
+  - cookiecutter=1.7.3
+prefix: /home/dparedes/anaconda3/envs/cookiecutter
