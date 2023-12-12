@@ -1,9 +1,7 @@
-# conda env create --file environment.yml
-# mamba env create --file environment.yml
-name: cookiecutter-conda-data-science
+name: cookiecutter
 channels:
-- anaconda
-- conda-forge
-- defaults
+  - conda-forge
+  - defaults
 dependencies:
-- cookiecutter
+  - cookiecutter=1.7.3
+prefix: /home/dparedes/anaconda3/envs/cookiecutter
