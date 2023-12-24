@@ -11,6 +11,10 @@ dependencies:
   - jupyterlab
   - pathlib
   - pandas
+  - numpy
+  - seaborn
+  - matplotlib.pyplot
+  - pyhere
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
