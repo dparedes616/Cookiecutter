@@ -13,7 +13,7 @@ dependencies:
   - pandas
   - numpy
   - seaborn
-  - matplotlib.pyplot
+  - matplotlib
   - pyhere
   {% endif -%}
   - pip
